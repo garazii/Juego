@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="15dp" >
+    <TextView
+        android:id="@+id/textpuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="35dp"
+        android:text="JUEGO MOVER MUÑECO"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/btJugar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="jugar"
+        android:text="Jugar"/>
+
+    <Button
+        android:id="@+id/btSalir"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="salir"
+        android:text="Salir"/>
+</LinearLayout>
+
